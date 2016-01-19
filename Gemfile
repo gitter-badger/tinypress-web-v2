@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
+gem 'react-rails', '~> 1.0'
 
 group :development do
   gem 'annotate'
@@ -41,6 +42,6 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'rails_stdout_logging'
-  gem 'pg'
+  # gem 'pg'
 end
 
